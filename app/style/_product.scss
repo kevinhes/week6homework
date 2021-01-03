@@ -1,0 +1,31 @@
+.productNav{
+    ul{
+        padding-top: 14px;
+        padding-bottom: 14px;
+        li{
+            padding-right: 28px;
+            a{
+                display: block;
+                font-size: 20px;
+                line-height: 30px;
+                color: white;
+                text-decoration: none;
+            }
+        }
+    }
+}
+.card-img-product{
+    width: 255px;
+    height: 255px;
+    object-fit: cover;
+    object-position: center;
+}
+@media (max-width:768px){
+    .card-img-product{
+        width: 165px;
+        height: 165px;
+    }
+    .card{
+        margin-bottom: 0;
+    }
+}
